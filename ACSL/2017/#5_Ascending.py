@@ -1,3 +1,4 @@
+# 写到后面已经思维混乱了
 # 寻找num里最小的n位数
 def findnum():
     store = ""
