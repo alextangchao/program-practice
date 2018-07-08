@@ -4,7 +4,7 @@
 #include<cstdio>
 
 using namespace std;
-int allcost, mincost;
+int allcost;
 vector<vector<int>> dis;
 
 class ufds {
@@ -47,7 +47,7 @@ public:
 };
 
 void clearall(int m) {
-	allcost = mincost = 0;
+	allcost = 0;
 	dis.clear();
 }
 
